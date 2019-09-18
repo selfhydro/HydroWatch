@@ -1,5 +1,9 @@
 apps:
-  selfhydro:
-    docker-compose-location: https://github.com/selfhydro/selfhydro.git
+  # selfhydro:
+  #   docker-compose-location: https://github.com/selfhydro/selfhydro.git
+  #   version-bucket: "selfhydro-versions"
+  #   frequency: 5m
+  SelfHydroDashboard:
+    docker-compose-location: https://github.com/selfhydro/SelfHydroDashboard.git
     version-bucket: "selfhydro-versions"
     frequency: 5m
